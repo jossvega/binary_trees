@@ -1,8 +1,9 @@
 #ifndef BINARY_H
 #define BINARY_H
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /*Data structures */
 
@@ -91,4 +92,4 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 /* Task 18 */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 
-#endif
+#endif /* _BINARY_TREES_H_ */
